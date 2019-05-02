@@ -5,12 +5,12 @@
     min-height: 80vh;
     text-align: center;
 }
-#sidebar div h3{
-    margin-top: 4%;
-    border-bottom: 1px solid;
-}
 .conteudo{
     position: absolute;
     float:right;
     width:-webkit-calc(100% - 250px - 5rem);
+}
+.cadastro{
+    border: solid;
+    border-color: #378cfa;
 }
