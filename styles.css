@@ -1,13 +1,16 @@
 .nav-item a{
     font-size: 20px;
 }
-.wrapper {
-    display: flex;
-    align-items: stretch;
-}
 #sidebar{
-    min-width: 250px;
-    max-width: 250px;
-    min-height: 100vh;
+    min-height: 80vh;
     text-align: center;
+}
+#sidebar div h3{
+    margin-top: 4%;
+    border-bottom: 1px solid;
+}
+.conteudo{
+    position: absolute;
+    float:right;
+    width:-webkit-calc(100% - 250px - 5rem);
 }
