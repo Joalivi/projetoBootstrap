@@ -17,3 +17,7 @@
 #navbarsuperior li:hover{
     transform: scale(1.2);
 }
+.formattext{
+    text-align: justify;
+    font-size: 18px;
+}
