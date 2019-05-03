@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="fontawesome-free-5.8.1-web/css/all.css" rel="stylesheet">
+    <link href="fontawesome-free-5.8.1-web/css/solid.css" rel="stylesheet">
+    <link href="/fontawesome-free-5.8.1-web/css/fontawesome.css" rel="stylesheet">
+    <title>Instituto Federal</title>
+  </head>
+  <body>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <a class="navbar-brand" href="index.html"><img src="img/iflogo.png" height="51" width="200"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <form class="form-inline my-2 my-lg-0 offset-6">
+                <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Ir</button>
+              </form>
+          </nav>
+          <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto" id="navbarsuperior">
+                  <li class="nav-item active">
+                    <a class="nav-link text-white px-4" href="index.html">Principal <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white px-4" href="cadastroInstitutos.html">Institutos</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-white px-4" href="cadastroDepartamento.html">Departamentos</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-white px-4" href="cadastroCurso.html">Cursos</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-white px-4" href="cadastroDisciplina.html">Disciplinas</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-white px-4" href="cadastroProfessor.html">Professores</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-white px-4" href="cadastroAluno.html">Alunos</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link text-white px-4" href="#">Contato</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-white px-4" href="#">Dúvidas</a>
+                  </li>
+                </ul>
+              </div>
+          </nav>
+          <div class="row col-md-12">
+              <div class="col-md-3 mt-3 bg-primary" id="sidebar">
+                  <h2 class='text-white'>Principal</h2>
+                  <hr color="#ffffff">
+                  <a class="text-white" href="cadastroProfessor.html">Novo Professor</a>
+              </div>
+              <div class="col-md-9 mt-3">
+                  <h3>Novo Professor</h3>
+                  <div class=" col-md-12">
+                      <div class="form-row cadastro my-3">
+                          <div class="col-md-4">
+                            <label class="my-1">Nome</label>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control my-1">
+                        </div>
+                      </div>
+                      <div class="form-row cadastro my-3">
+                        <div class="col-md-4">
+                            <label class="my-1">Email</label>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="email" class="form-control my-1">
+                        </div>
+                    </div>
+                    <div class="form-row cadastro my-3">
+                            <div class="col-md-4">
+                                <label class="my-1">Telefone</label>
+                            </div>
+                            <div class="col-md-4">
+                                <input type="tel" class="form-control my-1">
+                            </div>
+                    </div>
+                    <div class="form-row cadastro my-3">
+                        <div class="col-md-4">
+                            <label class="my-1">Coordenador</label>
+                        </div>
+                        <div class="col-md-4">
+                            <input class="form-check-input ml-1" type="checkbox">
+                        </div>
+                </div>                        
+                    <div class="form-row cadastro my-3">
+                        <div class="col-md-4">
+                            <label class="my-1">Departamento</label>
+                        </div>
+                        <div class="col-md-4">
+                            <select class="custom-select">
+                                <option selected>Computação</option>
+                                <option value="1">Elétrica</option>
+                                <option value="2">Biologia</option>
+                                <option value="3">Química</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row cadastro my-3">
+                        <div class="col-md-4">
+                            <label class="my-1">Usuário</label>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="text" class="form-control my-1">
+                        </div>
+                    </div>
+                    <div class="form-row cadastro my-3">
+                        <div class="col-md-4">
+                            <label class="my-1">Senha</label>
+                        </div>
+                        <div class="col-md-4">
+                            <input type="password" class="form-control my-1">
+                        </div>
+                    </div>
+                    <div class="form-row cadastro my-3">
+                        <div class="col-md-4">
+                            <label class="my-1">Administrador</label>
+                        </div>
+                        <div class="col-md-4">
+                            <input class="form-check-input ml-1" type="checkbox">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3">
+                            <button>Salvar</button>
+                        </div>
+                    </div>         
+                  </div>
+              </div>
+          </div>
+      </div> 
+  <script src="bootstrap/js/jquery-3.2.1.min.js"></script>
+  <script src="bootstrap/js/popper.min.js"></script>
+  <script src="bootstrap/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
