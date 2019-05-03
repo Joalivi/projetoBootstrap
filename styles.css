@@ -1,5 +1,5 @@
 .nav-item a{
-    font-size: 20px;
+    font-size: 16px;
 }
 #sidebar{
     min-height: 80vh;
@@ -13,4 +13,7 @@
 .cadastro{
     border: solid;
     border-color: #378cfa;
+}
+#navbarsuperior li:hover{
+    transform: scale(1.2);
 }
